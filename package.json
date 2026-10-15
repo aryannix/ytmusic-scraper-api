@@ -1,0 +1,34 @@
+{
+  "name": "ytmusic-scraper-api",
+  "version": "1.0.0",
+  "description": "YouTube Music API for search, tracks, albums, artists, playlists, lyrics, charts and audio download. Works with ESM and CommonJS.",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "youtube",
+    "youtube-music",
+    "ytmusic",
+    "music",
+    "downloader",
+    "lyrics",
+    "innertube",
+    "bot"
+  ],
+  "license": "MIT"
+}
